@@ -1,11 +1,11 @@
 .building{
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 30px;
     align-items: center;
 }
 
 .building img {
-    margin-top: 50px;
-    width: 50%;
+    margin-top: 45px;
+    width: 40%;
 }

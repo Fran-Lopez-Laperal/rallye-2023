@@ -50,24 +50,24 @@ function CountDown() {
 
     return (
         <>
-            <div className="container-count">
-                <h1 className="text-center mt-2 mb-2" style={{ color: 'red', fontWeight: '600' }}>Comenzamos la cuenta atrás </h1>
-                <div className='count-down text-center mt-5 mb-5'>
-                    <section className='count-down-section me-2' style={{backgroundColor:'#ff00003a'}}>
+            <div className="count-dounn-container">
+                <h1 className="text-center mt-5 mb-2" style={{ color: 'red', fontWeight: '600' }}>Comenzamos la cuenta atrás </h1>
+                <div className='count-down  mt-2'>
+                    <section className='count-down-section  text-center'>
                         <p>{timerDays}</p>
                         <h5>DIAS</h5>
                     </section>
-                    <section className='count-down-section'>
+                    <section className='count-down-section text-center'>
                         <p>{timerHours}</p>
                         <h5>HORAS</h5>
                     </section>
                     <span>:</span>
-                    <section className='count-down-section'>
+                    <section className='count-down-section text-center'>
                         <p>{timerMinutes}</p>
                         <h5>MINUTOS</h5>
                     </section>
                     <span>:</span>
-                    <section className='count-down-section'>
+                    <section className='count-down-section text-center'>
                         <p>{timerSeconds}</p>
                         <h5>SEGUNDOS</h5>
                     </section>
