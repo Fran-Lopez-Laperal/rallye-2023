@@ -1,0 +1,160 @@
+.home-carousel{
+  width: 100% !important;
+}
+
+.carousel-item img{
+    object-fit:fill;
+}
+
+.imgs-sponsors-container img{
+  position: absolute;
+  z-index: 3;
+}
+
+.img-sponsor-1{
+  width: 30%;
+  bottom: 5%;
+  left: 2%;
+}
+
+.img-sponsor-2{
+  width: 15%;
+  bottom: 55%;
+  left: 80%;
+}
+
+.img-sponsor-3{
+  bottom: 55%;
+  left: 5%;
+  width: 20%;
+}
+
+.img-sponsor-4{
+  bottom: 15%;
+  left: 75%;
+  width: 20%;
+}
+
+.text-img h2{
+  bottom: 290px;
+  color: rgb(249, 249, 250);
+  font-size: 310%;
+  font-weight: 800;
+  position: absolute;
+  right: 23%;
+  text-shadow: 2px 2px 4px black;
+  z-index: 3;
+}
+
+.text-img img{
+  bottom: 50px;
+  width: 50%;
+  position: absolute;
+  right: 20%;
+  z-index: 3;
+}
+
+.placa-img img {
+  top: 30px;
+  width: 15%;
+  position: absolute;
+  right: 40%;
+  z-index: 3;
+}
+
+@media(max-width:1024px){
+  .img-sponsor-1{
+    width: 50%;
+    bottom: 12%;
+    left: 2%;
+  }
+  
+  .img-sponsor-2{
+    width: 35%;
+    bottom: 37%;
+    left: 60%;
+  }
+  
+  .img-sponsor-3{
+    bottom: 40%;
+    left: 5%;
+    width: 40%;
+  }
+  
+  .img-sponsor-4{
+    bottom: 15%;
+    left: 55%;
+    width: 40%;
+  }
+}
+
+@media(max-width:1024px){
+  .text-img img{
+    bottom: 10px;
+    width: 40%;
+    right: 2%;
+    z-index: 10;
+  }
+}
+
+@media(max-width:1024px){
+  .text-img h2{
+    top: 170px;
+    font-size: 20px;
+    font-weight: 600;
+    right: 5%;
+  }
+}
+
+@media(max-width:1024px){
+  #text-1 h2{
+    font-size: 25px;
+    right: 7%;
+  }
+}
+
+@media(max-width:1024px){
+ .text-img img{
+   top: 350px;
+   width: 90%;
+   z-index: 2;
+ }
+}
+
+@media(max-width:1024px){
+  .placa-img img {
+    width: 35%;
+    top: 40px;
+    position:absolute;
+    z-index: 2;
+    left: 150px;
+  }
+}
+
+
+
+@media (min-width: 1024px) {
+    .carousel-item {
+      height: 570px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    #img-item {
+      height: 680px;
+      object-fit: cover;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    #img-item {
+      height: 575px;
+      object-fit: cover;
+    }
+  }
+
+  @media (max-width:1024px){
+    .home-carousel{
+      margin-top: 55px;
+    }
+  }

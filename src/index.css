@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box
+}
+
+body{
+    font-family:'Roboto', sans-serif ;
+    background:-webkit-linear-gradient(
+        -72deg,
+    #ccf0fd,
+    #d0d3f4 16%,
+    #d0d3f4 21%,
+    #ccf0fd 24%,
+    #d0d3f4 27%,
+    #d0d3f4 36%,
+    #d0d3f4 45%,
+    #a4cef8 60%,
+    #d0d3f4 72%,
+    #ccf0fd 80%,
+    #ccf0fd 84%,
+    #ccf0fd
+    ) ;
+}
+
+
+section{
+    width: 100%;
+}
+
+ hr{
+    border:none;
+    border-top:3px dashed red;
+    color:red;
+    background-color:red;
+    height:1;
+    width:100%;
+ }
