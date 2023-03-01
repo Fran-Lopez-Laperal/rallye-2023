@@ -9,3 +9,13 @@
     margin-top: 45px;
     width: 40%;
 }
+
+@media(max-width:1024px){
+    .building h1 {
+        font-size: 15px;
+    }
+
+    .building img {
+        width: 80%;
+    }
+}

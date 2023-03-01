@@ -28,6 +28,7 @@
     .count-down{
         display: flex;
         justify-content:center;
+        width: auto;
     }
 }
 
