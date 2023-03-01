@@ -21,7 +21,7 @@ function Footer() {
 
                 </div>
                 <div className='copy-logo'>
-                    <strong className='copy mt-5'>Rally de Pontevedra 2022 &copy;</strong>
+                    <strong className='copy mt-5'>Rally de Pontevedra 2023 &copy;</strong>
                     <img className='logo-esc' src={escudería} alt={escudería} />
                     <div>
                         <ul className='footer-adress'>

@@ -1,0 +1,11 @@
+.building{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.building img {
+    margin-top: 100px;
+    width: 50%;
+}
