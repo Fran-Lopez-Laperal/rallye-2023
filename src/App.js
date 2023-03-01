@@ -16,12 +16,14 @@ import Footer from "./components/Footer/Footer";
 // import Spectators from "./components/Spectators/Spectators";
 // import CountDown from "./components/CountDown/CountDown";
 import Building from "./components/Building/building"
+import CountDown from "./components/CountDown/CountDown"
 
 function App() {
   return (
     <div className="">
       {/* <NavBar /> */}
       <Building/>
+      <CountDown/>
       {/* <MarqueeSponsors/>
       <HomeCarousel/> */}
       {/* <div className="mt-5 p-2">

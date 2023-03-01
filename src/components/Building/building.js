@@ -7,7 +7,7 @@ function Building() {
     return (
         <>
             <div className="building">
-                <h1>Estamos creando la Web para el rallye de Pontevedra 2023</h1>
+                <h1>Web Rallye de Pontevedra 2023 en construcción</h1>
                 <img src={placa} alt="" />
             </div>
         </>
