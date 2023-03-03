@@ -1,5 +1,5 @@
 import "./bulding.css"
-import placa from "../../assets/images/placa2023.jpeg";
+import placa from "../../assets/images/placa2023.png";
 
 
 function Building() {

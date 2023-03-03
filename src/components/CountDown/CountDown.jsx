@@ -15,7 +15,7 @@ function CountDown() {
     let interval = useRef()
 
     const startTimer = () => {
-        const countdownDate = new Date('June 24, 2023  17:00:00').getTime()
+        const countdownDate = new Date('June 02, 2023  17:00:00').getTime()
 
         interval = setInterval(() => {
 
@@ -41,7 +41,7 @@ function CountDown() {
     }
 
     useEffect(() => {
-        
+
         startTimer()
         return () => {
             clearInterval(interval)
@@ -53,7 +53,9 @@ function CountDown() {
             <div className="count-dounn-container">
                 <h1 className="text-center mt-5 mb-2" style={{ color: 'red', fontWeight: '600' }}>Comenzamos la cuenta atrás </h1>
                 <div className='count-down  mt-2'>
-                    <section className='count-down-section  text-center'>
+                    <section className='count-down-section  text-center'
+                        style={{ border: "1px solid black", borderLeft: "none", borderTop: "none", borderBottom: "none", width: "100px" }}
+                        >
                         <p>{timerDays}</p>
                         <h5>DIAS</h5>
                     </section>
@@ -67,7 +69,7 @@ function CountDown() {
                         <h5>MINUTOS</h5>
                     </section>
                     <span>:</span>
-                    <section className='count-down-section text-center'>
+                    <section className='count-down-section text-center me-5'>
                         <p>{timerSeconds}</p>
                         <h5>SEGUNDOS</h5>
                     </section>
