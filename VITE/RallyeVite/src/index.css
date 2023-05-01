@@ -1,0 +1,12 @@
+body{
+  font-family:'Roboto', sans-serif ;
+  background:rgb(8, 104, 200) ;
+}
+
+
+*{
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}

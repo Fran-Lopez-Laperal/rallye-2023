@@ -1,0 +1,16 @@
+.home__page{
+    min-height: 100vh;
+}
+
+.home__page__figure {
+    width: 100%;
+}
+.home__page__figure > img {
+    object-fit: cover;
+    width: 100%;
+ }
+
+ .home__page__section__news{
+    width: 100%;
+ }
+

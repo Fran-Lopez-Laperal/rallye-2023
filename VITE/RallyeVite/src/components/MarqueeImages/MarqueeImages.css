@@ -1,0 +1,36 @@
+/* .galeria {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .galeria img {
+    display: inline-block;
+    height: 150px;
+    margin: 0 20px;
+    animation: desplazamiento 1s linear infinite;
+  }
+  
+  @keyframes desplazamiento {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  } */
+
+
+  .image-wrapper img {
+    height: 180px;
+    width: 180px;
+    object-fit: contain;
+  }
+  
+  .image-wrapper img{
+    margin: 0px 10px;
+   }
+
+   .marquee-warning h3{
+    border: 2px solid red;
+  }
+  

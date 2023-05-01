@@ -1,0 +1,51 @@
+.navbar{
+    background-color: rgb(36, 37, 51);
+    display: flex;
+    padding: 0px;
+}
+
+.navbar__menu {
+    display: flex;
+    width: 100%;
+    height: 80px;
+}
+  
+.navbar__menu__ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+
+  
+.navbar__menu__ul li {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__menu__ul li:hover { 
+    background-color: gray;
+    transition: ease .7s;
+}
+
+.navbar__menu__ul li:first-child:hover {
+    background-color: transparent;
+}
+
+.nav_img{
+    width: 50%;
+    min-width: 150px;
+    padding: 15px;
+}
+ 
+.navbar__menu__ul > li > a {
+    color: white;
+    text-decoration: none;
+}
