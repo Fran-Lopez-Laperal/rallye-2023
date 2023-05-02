@@ -7,10 +7,9 @@ import SectionMenuInfo from '../../SectionMenuInfo/SectionMenuInfo'
 
 const HomePage = () => {
 
-  console.log(noticias)
   return (
     <div className='home__page'>
-      <section>
+      <section className='home__page__container'>
         <figure className='home__page__figure'>
           <img src={cartel} alt={cartel} />
         </figure>
