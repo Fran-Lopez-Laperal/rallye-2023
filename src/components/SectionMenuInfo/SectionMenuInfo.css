@@ -44,10 +44,10 @@
 
 .sectionMenuInfo__article__section{
     padding: 15px;
-    background-color: rgba(0, 0, 0, 0.174);
+    background-color: rgba(0, 0, 0, 0.333);
     height: 100%;
     border-radius: 5px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.137);
+    box-shadow: 2px 1px 10px rgba(70, 70, 70, 0.588);
 }
 
 .title__card{
@@ -70,11 +70,24 @@
     justify-content: flex-end;
 }
 
-
+@media(max-width:1024px) {
+    .sectionMenuInfo{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(14rem, 2fr));
+        grid-auto-rows: 28rem;
+        gap: 1rem;
+        margin: 30px;
+        margin-top: 30px;
+    }
+}
 
 
 @media(max-width:420px) {
     .sectionMenuInfo{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(14rem, 2fr));
+        grid-auto-rows: 18rem;
+        gap: 1rem;
         margin: 30px;
         margin-top: 30px;
     }

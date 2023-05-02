@@ -1,5 +1,5 @@
 .home__page{
-    min-height: 100vh;
+    min-height: 100%;
 }
 
 .home__page__figure {
@@ -13,6 +13,10 @@
 
  .home__page__section__news{
     width: 100%;
+ }
+
+ .marquee__homePage{
+   background-color: rgba(132, 132, 132, 0.698);
  }
 
 

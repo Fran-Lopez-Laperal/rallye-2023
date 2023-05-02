@@ -25,10 +25,6 @@ function MarqueeImages() {
                             <img src={attis} alt={attis} />
                         </a>
 
-                        <a target='_blank' rel="noreferrer" href='http://www.inmobiliariabamarti.com/' className='image-wrapper'>
-                            <img src={bamarti} alt={bamarti} />
-                        </a>
-
                         <a target='_blank' rel="noreferrer" href='https://www.caetanoformulagalicia.es/' className='image-wrapper'>
                             <img src={caetano} alt={caetano} />
                         </a>
@@ -66,7 +62,12 @@ function MarqueeImages() {
                         <a target='_blank' rel="noreferrer" href='https://www.autia.es/taller/Pontevedra/Sanxenxo/garaje-progreso' className='image-wrapper me-4'>
                             <img src={progreso} alt={progreso} />
                         </a>
-                         <a target='_blank' rel="noreferrer" href='https://www.staroil.es/' className='image-wrapper me-4'>
+
+                        <a target='_blank' rel="noreferrer" href='http://www.inmobiliariabamarti.com/' className='image-wrapper'>
+                            <img src={bamarti} alt={bamarti} />
+                        </a>
+
+                        <a target='_blank' rel="noreferrer" href='https://www.staroil.es/' className='image-wrapper me-4'>
                             <img src={staroil} alt={staroil} />
                         </a>
                         <a target='_blank' rel="noreferrer" href='https://starkausavil.es/' className='image-wrapper me-4'>

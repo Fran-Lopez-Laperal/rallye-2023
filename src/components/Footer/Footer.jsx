@@ -7,9 +7,9 @@ import './Footer.css'
 const Footer = () => {
   return (
     <footer className='footer'>
-      <div className='footer-container d-flex flex-wrap justify-content-center'>
+      <div className='footer-container'>
 
-        <div className='media  d-flex text-align-center justify-content-evenly mb-5 mt-2'>
+        <div className='media'>
           <a href="https://www.facebook.com/RallyePontevedra"><i className='fa fa-facebook'></i></a>
           <a href="https://www.instagram.com/rallypontevedra"><i className='fa fa-instagram'></i></a>
           <a href="mailto:info@rallydepontevedra.es"><i className='fa fa-envelope'></i></a>
@@ -18,21 +18,22 @@ const Footer = () => {
 
       </div>
       <div className='copy-logo'>
-        <strong className='copy mt-5'>Rally de Pontevedra 2023 &copy;</strong>
         <section className='footer-imgs'>
           <img className='logo-esc' src={escudería} alt={escudería} />
           <img className='logo-esc' src={federacion} alt={federacion} />
+          <section className='adress'>
+            <ul className='footer-adress'>
+              <li>FONTOIRA Nº42</li>
+              <li>36960</li>
+              <li>SANXENXO    PONTEVEDRA</li>
+              <li>TLFN.: 671 562 578</li>
+            </ul>
+          </section>
         </section>
-
-        <div>
-          <ul className='footer-adress'>
-            <li>FONTOIRA Nº42</li>
-            <li>36960</li>
-            <li>SANXENXO    PONTEVEDRA</li>
-            <li>TLFN.: 671 562 578</li>
-          </ul>
-        </div>
       </div>
+      <section className='copy-rally'>
+        <strong className='copy'>Rally de Pontevedra 2023 &copy;</strong>
+      </section>
     </footer>
   )
 }

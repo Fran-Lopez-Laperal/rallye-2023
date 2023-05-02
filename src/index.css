@@ -1,8 +1,10 @@
 body{
   font-family:'Roboto', sans-serif ;
-  background:rgb(209, 209, 209) ;
+  background-image: url('../src/assets/solans-sierra-morena-2023-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 90%;
 }
-
 
 *{
   margin: 0;

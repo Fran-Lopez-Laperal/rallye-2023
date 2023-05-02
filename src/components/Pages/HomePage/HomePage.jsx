@@ -4,6 +4,7 @@ import CountDown from '../../CountDown/CountDown'
 import noticias from '../../../Noticias/noticias'
 import MarqueeImages from '../../../components/MarqueeImages/MarqueeImages'
 import SectionMenuInfo from '../../SectionMenuInfo/SectionMenuInfo'
+import Documents from '../../Documents/Documents'
 
 const HomePage = () => {
 
@@ -15,16 +16,21 @@ const HomePage = () => {
         </figure>
       </section>
 
-      <section>
+      <section className='marquee__homePage'>
         <MarqueeImages />
       </section>
 
       <section>
         <CountDown />
       </section>
-      
+
       <section>
         <SectionMenuInfo />
+        <Documents />
+      </section>
+
+      <section>
+        
       </section>
     </div>
   )

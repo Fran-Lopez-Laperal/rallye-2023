@@ -1,6 +1,7 @@
 .footer{
-    margin-top: 50px;
+    margin-top: 20px;
     background-color: rgb(36, 37, 51);
+    padding: 20px;
 }
 
 .bruma-img{
@@ -9,19 +10,20 @@
 }
 
 .copy{
-    font-size: 15px;
+    font-size: 25px;
     color: white;
 }
 
 .copy-logo{
     display: flex;
     justify-content: space-between;
-    padding: 40px;
+    padding: 25px;
 }
 
 .media{
+    display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     color: white;
 }
 
@@ -36,7 +38,11 @@
 
 
 .logo-esc{
-    width: 30%;
+    width: 20%;
+}
+
+.copy-rally{
+    text-align: center;
 }
 
 .footer-adress{
@@ -66,12 +72,17 @@
         width: 100%;
      }
 
-     .footer-adress{
-        margin-top: 5px;
-        font-size: 14px;
+    
+
+     .adress > ul > li {
+        font-size: 9px;
      }
 
      .logo-esc{
         width: 120px;
+    }
+
+    .media i {
+        font-size: 30px;
     }
 }
