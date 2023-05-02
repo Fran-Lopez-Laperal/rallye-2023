@@ -53,13 +53,13 @@ function CountDown() {
             <div className="count-dounn-container">
                 <h1 className="text-center mt-5 mb-2" style={{ color: 'red', fontWeight: '600' }}>Comenzamos la cuenta atrás </h1>
                 <div className='count-down  mt-2'>
-                    <section className='count-down-section  text-center'
+                    <section id="section-days" className='count-down-section  text-center'
                         style={{ border: "1px solid black", borderLeft: "none", borderTop: "none", borderBottom: "none", width: "100px" }}
                         >
                         <p>{timerDays}</p>
                         <h5>DIAS</h5>
                     </section>
-                    <section className='count-down-section text-center'>
+                    <section id="section-hour" className='count-down-section text-center'>
                         <p>{timerHours}</p>
                         <h5>HORAS</h5>
                     </section>

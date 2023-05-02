@@ -25,43 +25,37 @@
      font-size: 0px;
  }
  
- @media(max-width:1024px){
+ @media(max-width:420px){
      .count-down{
-         display: flex;
-         justify-content:center;
+        margin-top: 10px;
          width: auto;
      }
- }
- 
- @media(max-width:1024px){
+
      .count-down-section{
-         width: 70px; 
-         height:75px;
-     }
- }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 3px;
+        height:40px;
+        width: 50px;
+    }
+
+    #section-days{
+        width: 50px !important;
+    }
+
+    #section-hour{
+        margin-left: 10px !important;
+    }
+
+    .count-down-section h5{
+        font-size: 10px;
+        font-weight: 600;
+    } 
+
+    .count-down-section p{
+        font-size: 25px;
+    }
  
- @media(max-width:1024px){
-     .count-down-section h5{
-         font-size: 11px;
-         font-weight: 600;
-         margin-top: -20px;
-     } 
- }
- 
- @media(max-width:1024px){
-     .count-down-section p{
-         font-size: 35px;
-     }
- }
- 
- @media(max-width:1024px){
-     .count-down span{
-         font-size: 50px;
-     }
- }
- 
- @media(max-width:1024px){
-     .container-count h1{
-         font-size: 20px;
-     }
  }
