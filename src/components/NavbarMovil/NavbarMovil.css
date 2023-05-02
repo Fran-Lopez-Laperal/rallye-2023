@@ -76,6 +76,10 @@
     transition: ease .6s;
   }
 
+  .navbarMovil__menu__ul > li:hover:first-child {
+    background: none;
+  }
+
   .navbarMovil__menu__ul > li > a{
     text-decoration: none;
     color: white;
