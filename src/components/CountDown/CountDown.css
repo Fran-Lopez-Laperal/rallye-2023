@@ -60,3 +60,9 @@
     }
  
  }
+
+ @media(max-width:490px){
+    .count-down{
+        width: 90%;
+    }
+ }

@@ -11,7 +11,7 @@ function App() {
   const [showNav, setShowNav] = useState(false)
 
   useEffect(() => {
-    const responsiveMovil = () => window.innerWidth > 420 ? setShowNav(true) : setShowNav(false);
+    const responsiveMovil = () => window.innerWidth > 480 ? setShowNav(true) : setShowNav(false);
     responsiveMovil();
     window.addEventListener("resize", () => responsiveMovil())
 

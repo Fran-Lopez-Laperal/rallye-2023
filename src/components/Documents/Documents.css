@@ -76,3 +76,9 @@
     }
 }
 
+@media(max-width:490px){
+    .documents__section__article{
+        width: 90%;
+    }
+ }
+
