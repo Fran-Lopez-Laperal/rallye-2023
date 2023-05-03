@@ -136,7 +136,7 @@
 
 @media(max-width:533px){
     .nav_img{
-        width: 50%;
+        width: 70%;
         min-width: 50px;
         position:sticky;
         top: 0;

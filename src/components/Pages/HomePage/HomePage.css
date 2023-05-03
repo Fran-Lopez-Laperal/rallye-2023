@@ -23,6 +23,6 @@
 
  @media(max-width: 420px){
     .home__page__figure > img{
-       margin-top: 80px;
+       margin-top: 0px;
     }
  }

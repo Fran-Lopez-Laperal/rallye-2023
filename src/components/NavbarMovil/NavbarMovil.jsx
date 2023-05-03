@@ -60,9 +60,9 @@ const NavbarMovil = () => {
             </nav>
                 :
                   <nav className={`${!transparent} navMovil__close ${isnavScroll ? 'navScroll' : 'navMovil__close'}`}>
-                    <Link to={"/"}>
+                    {/* <Link to={"/"}>
                         <img className='nav_img' src={placa} alt="" />
-                    </Link>
+                    </Link> */}
                 </nav>}
         </>
     )
