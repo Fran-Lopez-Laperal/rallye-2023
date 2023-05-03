@@ -6,7 +6,7 @@ body{
   background-image: url('../src/assets/senra.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 70%;
+  background-position: 1%;
 }
 
 @media(max-width:490px) {
