@@ -85,3 +85,8 @@
     }
  }
 
+ @media(max-width:846px){
+    .documents__section__article{
+        width: 80%;
+    }
+ }
