@@ -15,7 +15,7 @@ const NavbarMovil = () => {
     useEffect(() => {
         const handleScroll = () => {
           const position = window.pageYOffset;
-          if (position > 100) { 
+          if (position > 130) { 
             setIsnavScroll(transparent); 
           } else {
             setIsnavScroll(!transparent);
