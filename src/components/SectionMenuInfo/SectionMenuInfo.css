@@ -155,3 +155,13 @@
     }
 }
 
+@media(max-width:846px){
+    .sectionMenuInfo{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(14rem, 2fr));
+        grid-auto-rows: 22rem;
+        gap: 1rem;
+        margin: 30px;
+        margin-top: 30px;
+    }
+}
