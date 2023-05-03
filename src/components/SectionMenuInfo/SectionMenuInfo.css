@@ -83,7 +83,7 @@
 }
 
 
-@media(max-width:420px) {
+@media(max-width:490px) {
     .sectionMenuInfo{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(14rem, 2fr));
@@ -155,7 +155,7 @@
     }
 }
 
-@media(max-width:846px){
+/* @media(max-width:846px){
     .sectionMenuInfo{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(16rem, 2fr));
@@ -164,4 +164,4 @@
         margin: 30px;
         margin-top: 40px;
     }
-}
+} */
