@@ -133,3 +133,14 @@
         align-items: center;
     }
 }
+
+@media(max-width:533px){
+    .nav_img{
+        width: 50%;
+        min-width: 50px;
+        position:sticky;
+        top: 0;
+        left: 0;
+    }
+}
+
