@@ -85,12 +85,14 @@
 
 @media(max-width:490px) {
     .sectionMenuInfo{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(14rem, 2fr));
-        grid-auto-rows: 18rem;
-        gap: 1rem;
-        margin: 30px;
-        margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 2fr));
+    grid-auto-rows: 16.6rem;
+    gap: 1rem;
+    margin: 0px;
+    width: 100%;
+    margin-top: 40px;
+
     }
     
     .sectionMenuInfo__article{
