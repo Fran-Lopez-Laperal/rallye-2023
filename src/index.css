@@ -3,15 +3,15 @@
 
 body{
   font-family:'Roboto', sans-serif ;
-  background-image: url('../src/assets/solans-sierra-morena-2023-1.jpg');
+  background-image: url('../src/assets/senra.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 90%;
+  background-position: 70%;
 }
 
 @media(max-width:490px) {
     body{
-      background-position: 70%;
+      background-position: 20%;
     }
 }
 
