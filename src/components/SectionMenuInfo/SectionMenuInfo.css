@@ -128,10 +128,10 @@
     
     .sectionMenuInfo__article__section{
         padding: 15px;
-        background-color: rgba(0, 0, 0, 0.178);
+        background-color: rgba(0, 0, 0, 0.174);
         height: 100%;
         border-radius: 5px;
-        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.897);
+        box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.755);
     }
     
     .title__card{
