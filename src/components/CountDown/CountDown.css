@@ -25,6 +25,12 @@
  .count-down span{
      font-size: 0px;
  }
+
+ .count-down-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
  
  @media(max-width:420px){
      .count-down{
