@@ -6,6 +6,7 @@
   height: 80px;
   /* background-color: rgb(86, 159, 255); */
   position: fixed;
+  top: 0;
   z-index: 10;
  
 }
@@ -46,6 +47,7 @@
     gap: 0.65rem;
     z-index: 1001;
     transition: ease .1s;
+    top: 0;
   }
   
   .nav__button__div > div {
@@ -71,7 +73,6 @@
     align-items: center;
     width: 100%;
     list-style: none;
-  
   }
 
   .navbarMovil__menu__ul > li:hover {

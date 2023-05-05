@@ -9,26 +9,39 @@ const NavBar = () => {
         <div className='navbar'>
             <div className='navbar__menu'>
                 <ul className='navbar__menu__ul'>
-                    <li>
-                        <Link to={"/"}>
+
+                    <Link to={"/"}>
+                        <li>
                             <img className='nav_img' src={placa} alt="" />
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to={'/'}> INICIO</Link>
-                    </li>
-                    <li>
-                        <Link to={'/noticias'}> NOTICIAS</Link>
-                    </li>
-                    <li>
-                        <Link to={'/'}>COMPETIDORES</Link>
-                    </li>
-                    <li>
-                        <Link to={'/'}>ESPECTADORES</Link>
-                    </li>
-                    <li>
-                        <Link to={'/'}>TIEMPOS ONLINE</Link>
-                    </li>
+                        </li>
+                    </Link>
+                    <Link to={'/'} style={{ textDecoration: 'none' }}>
+                        <li>
+                            <p style={{ backgroundColor: 'none' }}>INICIO</p>
+                        </li>
+                    </Link>
+
+                    <Link to={'/noticias'} style={{ textDecoration: 'none' }}>
+                        <li>
+                            <p>NOTICIAS</p>
+                        </li>
+                    </Link>
+
+                    <Link style={{ textDecoration: 'none' }}>
+                        <li>
+                            <p>COMPETIDORES</p>
+                        </li>
+                    </Link>
+                    <Link style={{ textDecoration: 'none' }}>
+                        <li>
+                            <p>ESPECTADORES</p>
+                        </li>
+                    </Link>
+                    <Link style={{ textDecoration: 'none' }}>
+                        <li>
+                            <p>TIEMPOS ONLINE</p>
+                        </li>
+                    </Link>
                 </ul>
             </div>
         </div>
