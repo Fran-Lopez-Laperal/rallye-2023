@@ -18,6 +18,7 @@
     display: flex;
     justify-content: space-between;
     padding: 25px;
+    align-items: center;
 }
 
 .media{
@@ -38,7 +39,7 @@
 
 
 .logo-esc{
-    width: 20%;
+    width: 50%;
 }
 
 .copy-rally{
@@ -70,9 +71,13 @@
 
      .footer-imgs{
         width: 100%;
+        justify-content: space-between;
+        margin-bottom: 30px;
      }
 
-    
+    .copy{
+        font-size: 20px;
+    }
 
      .adress > ul > li {
         font-size: 9px;

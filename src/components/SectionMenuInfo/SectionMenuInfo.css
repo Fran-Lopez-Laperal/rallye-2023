@@ -26,21 +26,28 @@
 #img__mapas{
     background-image: url('../../assets/mapas.png');
     background-size: cover;
+    background-position: 50%;
 }
 
 #img__noticias{
     background-image: url('../../assets/noticias.png');
     background-size: cover;
+    background-position: 50%;
+
 }
 
 #img__tiempos{
-    background-image: url('../../assets/tiempos.jpg');
+    background-image: url('../../assets/cronometro.jpeg');
     background-size: cover;
+    background-position: 50%;
+
 }
 
 #img__info{
     background-image: url('../../assets/info.png');
     background-size: cover;
+    background-position: 70%;
+
 }
 
 .sectionMenuInfo__article__section{
@@ -102,31 +109,13 @@
         transition: transform 0.7s ease-in-out;
         
     }
+
+
     
     .sectionMenuInfo__article:hover{
-        transform: scale(1.05);
+        transform: none;
     }
     
-    
-    #img__mapas{
-        background-image: url('../../assets/mapas.png');
-        background-size: cover;
-    }
-    
-    #img__noticias{
-        background-image: url('../../assets/noticias.png');
-        background-size: cover;
-    }
-    
-    #img__tiempos{
-        background-image: url('../../assets/tiempos.jpg');
-        background-size: cover;
-    }
-
-    #img__info{
-        background-image: url('../../assets/info.png');
-        background-size: cover;
-    }
     
     .sectionMenuInfo__article__section{
         padding: 15px;

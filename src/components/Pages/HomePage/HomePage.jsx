@@ -1,7 +1,6 @@
 import cartel from '../../../assets/cartel.jpeg'
 import './HomePage.css'
 import CountDown from '../../CountDown/CountDown'
-import noticias from '../../../Noticias/noticias'
 import MarqueeImages from '../../../components/MarqueeImages/MarqueeImages'
 import SectionMenuInfo from '../../SectionMenuInfo/SectionMenuInfo'
 import Documents from '../../Documents/Documents'

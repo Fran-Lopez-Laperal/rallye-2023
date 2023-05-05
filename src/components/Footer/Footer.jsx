@@ -20,7 +20,6 @@ const Footer = () => {
       <div className='copy-logo'>
         <section className='footer-imgs'>
           <img className='logo-esc' src={escudería} alt={escudería} />
-          <img className='logo-esc' src={federacion} alt={federacion} />
           <section className='adress'>
             <ul className='footer-adress'>
               <li>FONTOIRA Nº42</li>
@@ -30,9 +29,12 @@ const Footer = () => {
             </ul>
           </section>
         </section>
+        <section>
+        <img className='logo-esc' src={federacion} alt={federacion} />
+        </section>
       </div>
       <section className='copy-rally'>
-        <strong className='copy'>Rally de Pontevedra 2023 &copy;</strong>
+        <strong className='copy'>Rallye de Pontevedra 2023 &copy;</strong>
       </section>
     </footer>
   )
