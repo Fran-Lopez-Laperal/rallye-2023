@@ -4,6 +4,9 @@
     grid-auto-rows: 18rem;
     gap: 1rem;
     min-height: 100vh;
+}
+
+.news__card__container{
     margin: 100px;
 }
 

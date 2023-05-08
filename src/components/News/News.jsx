@@ -11,27 +11,29 @@ const News = () => {
 
     return (
         <section className='news'>
-            {noticias.map(({ title, img, id }) => (
-                <Link style={{textDecoration:'none'}} key={id} to={`/noticias/${id}`}>
-                    <article
+            <section className='news__card__container'>
+                {noticias.map(({ title, img, id }) => (
 
-                        className='news__card'
-                        style={{
-                            backgroundImage: `url(${img})`,
-                            backgroundSize: 'cover',
-                            backgroundPosition: 'center center',
-                           
-                        }}
-                    >
-                        <footer className='news__card__footer'>
-                            <h1>{title}</h1>
-                        </footer>
+                    <Link style={{ textDecoration: 'none' }} key={id} to={`/noticias/${id}`}>
+                        <article
 
-                    </article>
-                </Link>
+                            className='news__card'
+                            style={{
+                                backgroundImage: `url(${img})`,
+                                backgroundSize: 'cover',
+                                backgroundPosition: 'center center',
 
+                            }}
+                        >
+                            <footer className='news__card__footer'>
+                                <h1>{title}</h1>
+                            </footer>
 
-            ))}
+                        </article>
+                    </Link>
+                ))}
+            </section>
+
         </section>
     )
 }
