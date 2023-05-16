@@ -7,6 +7,7 @@ import { useEffect, useState } from 'react';
 import NavbarMovil from './components/NavbarMovil/NavbarMovil';
 import News from './components/News/News';
 import NewsDetail from './components/NewsDetail/NewsDetail';
+import BulletinBoard from './components/BulletinBoard/BulletinBoard';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path='/' element={<HomePage />} />
         <Route path='/noticias' element={<News />} />
         <Route path='/noticias/:id' element={<NewsDetail/>} />
+        <Route path='/tablon' element={<BulletinBoard/>} />
       </Routes>
       <Footer />
     </div>

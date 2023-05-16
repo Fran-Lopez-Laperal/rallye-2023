@@ -1,7 +1,7 @@
 import React from 'react'
 import './News.css'
 
-import noticias from '../../Noticias/noticias'
+import noticias from '../../Data/noticias'
 import { Link } from 'react-router-dom'
 
 const News = () => {

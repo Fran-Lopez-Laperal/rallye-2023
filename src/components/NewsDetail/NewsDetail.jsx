@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom'
 
 import './NewsDetail.css'
 
-import noticias from '../../Noticias/noticias'
+import noticias from '../../Data/noticias'
 console.log(noticias)
 
 const NewsDetail = () => {

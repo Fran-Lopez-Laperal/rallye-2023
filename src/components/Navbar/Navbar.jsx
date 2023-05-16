@@ -27,7 +27,7 @@ const NavBar = () => {
                         </li>
                     </Link>
 
-                    <Link style={{ textDecoration: 'none' }}>
+                    <Link to={'/tablon'} style={{ textDecoration: 'none' }}>
                         <li>
                             <p>COMPETIDORES</p>
                         </li>
