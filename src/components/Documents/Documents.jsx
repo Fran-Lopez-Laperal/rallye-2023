@@ -52,7 +52,7 @@ const Documents = () => {
             <h2> Cartel Prueba</h2>
           </header>
           <footer className='documents__section__article__footer'>
-            <a href={cartel} id="button__documents" > <i className="fa fa-external-link" aria-hidden="true"></i> <p>ACCEDER</p></a>
+            <a href={cartel} id="button__documents" > <i className="fa fa-file-pdf-o" aria-hidden="true"></i> <p>VER</p></a>
           </footer>
         </article>
 
