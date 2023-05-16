@@ -39,7 +39,7 @@ const NavbarMovil = () => {
             {showMenu ? <nav className={"navMovil__open"}>
                 <ul className='navbarMovil__menu__ul'>
                     <li>
-                        <Link to={"/"} style={{textAlign:'center'}}>
+                        <Link onClick={handleShowMenu} to={"/"} style={{textAlign:'center'}}>
                             <img className='nav_img' src={placa} alt="" />
                         </Link>
                     </li>
@@ -48,7 +48,7 @@ const NavbarMovil = () => {
                         <Link onClick={handleShowMenu} to={'/noticias'}> NOTICIAS</Link>
                     </li>
                     <li>
-                        <Link onClick={handleShowMenu} to={''}>COMPETIDORES</Link>
+                        <Link onClick={handleShowMenu} to={'/tablon'}>COMPETIDORES</Link>
                     </li>
                     <li>
                         <Link onClick={handleShowMenu} to={''}>ESPECTADORES</Link>
