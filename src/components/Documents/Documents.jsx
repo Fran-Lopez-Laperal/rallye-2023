@@ -5,6 +5,7 @@ import FileDocuments from '../FileDocuments/FileDocuments'
 
 import programa from '../../assets/Documents/Programa Horario.pdf'
 import cartel from '../../assets/Documents/Cartel.pdf'
+import itinerario from '../../assets/Documents/COMPLEMENTO Nº4 ITINERARIO - HORARIO.pdf'
 import { Link } from 'react-router-dom'
 
 
@@ -82,7 +83,10 @@ const Documents = () => {
             <h2> Mapa General</h2>
           </header>
           <footer className='documents__section__article__footer'>
-            <a id="button__documents" > <i className="fa fa-file-pdf-o" aria-hidden="true"></i> <p>VER</p></a>
+            <a id="button__documents" > <i className="fa fa-file-pdf-o" aria-hidden="true">
+
+            </i> <p>VER</p>
+            </a>
           </footer>
         </article>
 
@@ -91,7 +95,7 @@ const Documents = () => {
             <h2> Itinerario</h2>
           </header>
           <footer className='documents__section__article__footer'>
-            <a id="button__documents" > <i className="fa fa-file-pdf-o" aria-hidden="true"></i> <p>ABRIR</p></a>
+            <a href={itinerario} id="button__documents" > <i className="fa fa-file-pdf-o" aria-hidden="true"></i> <p>ABRIR</p></a>
           </footer>
         </article>
 
