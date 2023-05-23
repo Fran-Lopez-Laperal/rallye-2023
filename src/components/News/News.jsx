@@ -16,7 +16,7 @@ const News = () => {
                 .sort((a,b) => b.id - a.id)
                 .map(({ title, img, id }) => (
 
-                    <Link style={{ textDecoration: 'none' }} key={id} to={`/noticias/${id}`}>
+                    <Link className='news__card__link' style={{ textDecoration: 'none' }} key={id} to={`/noticias/${id}`}>
                         <article
 
                             className='news__card'
