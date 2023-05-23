@@ -16,8 +16,11 @@
     border-radius: 5px;
     box-shadow: 1px 1px 4px rgb(74, 74, 74);
     background-color: rgba(128, 128, 128, 0.665);
-    width: 80%;
+    width: 50%;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .newsDetail__container > img {
@@ -35,4 +38,23 @@
 
 .newsDetail__container--img{
     border-radius: 10px;
+}
+
+@media (max-width: 1024px){
+    .newsDetail__container--footer{  
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .newsDetail__container--img{
+        border-radius: 0px;
+    }
+
+    .newsDetail__container > img {
+        margin-bottom: 0px;
+    }
+
+    .newsDetail__container{
+        margin-bottom: 50px;
+    }
 }

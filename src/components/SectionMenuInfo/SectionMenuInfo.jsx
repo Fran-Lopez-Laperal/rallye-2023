@@ -7,7 +7,7 @@ const SectionMenuInfo = () => {
     return (
 
         <section className='sectionMenuInfo'>
-            <Link to={'/'} style={{textDecoration:'none'}}>
+            <Link to={'/noticias'} style={{textDecoration:'none'}}>
                 <article id='img__noticias' className='sectionMenuInfo__article' >
                     <section className='sectionMenuInfo__article__section'>
                         <footer className='sectionMenuInfo__article__footer'>
