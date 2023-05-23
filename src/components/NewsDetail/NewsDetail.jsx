@@ -20,7 +20,9 @@ const NewsDetail = () => {
             <section className='newsDetail__container'>
                 <img src={itemNew.img} alt={itemNew.title} />
                 <h1>{itemNew.title}</h1>
-                <p>{itemNew.description}</p>
+                <p>{itemNew.description1}</p>
+                <p>{itemNew.description2}</p>
+                <p>{itemNew.description3}</p>
             </section>
 
         </article>

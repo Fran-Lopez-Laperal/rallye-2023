@@ -12,7 +12,9 @@ const News = () => {
     return (
         <section className='news'>
             <section className='news__card__container'>
-                {noticias.map(({ title, img, id }) => (
+                {noticias
+                .sort((a,b) => b.id - a.id)
+                .map(({ title, img, id }) => (
 
                     <Link style={{ textDecoration: 'none' }} key={id} to={`/noticias/${id}`}>
                         <article
@@ -27,6 +29,7 @@ const News = () => {
                         >
                             <footer className='news__card__footer'>
                                 <h1>{title}</h1>
+                                
                             </footer>
 
                         </article>

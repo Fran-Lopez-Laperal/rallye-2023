@@ -2,7 +2,7 @@
     background-color: rgb(86, 159, 255);
     display: flex;
     padding: 0px;
-    position: fixed;
+    position: inherit;
     width: 100%;
     z-index: 2;
 }

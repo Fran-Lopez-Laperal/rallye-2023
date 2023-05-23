@@ -1,13 +1,14 @@
 .news{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(14rem, 2fr));
-    grid-auto-rows: 18rem;
-    gap: 1rem;
+    
     min-height: 100vh;
 }
 
 .news__card__container{
     margin: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 2fr));
+    grid-auto-rows: 14rem;
+    gap: 1rem;
 }
 
 .news__card{
