@@ -39,12 +39,7 @@
 
 
 @media (max-width: 1024px){
-    .news {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(14rem, 2fr));
-        grid-auto-rows: 28rem;
-        gap: 1rem;
-        margin: 30px;
-        margin-top: 150px;
+    .news__card__container{
+        margin: 100px 5px 0px 5px;
     }
 }
