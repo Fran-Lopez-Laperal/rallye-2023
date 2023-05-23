@@ -2,15 +2,13 @@
     
     min-height: 100vh;
 }
-
 .news__card__container{
-    margin: 100px;
+    
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(16rem, 2fr));
     grid-auto-rows: 24rem;
     gap: 1rem;
 }
-
 .news__card{
     box-shadow: 1px 1px 5px rgb(0, 0, 0);
     height:100%;
@@ -19,9 +17,8 @@
     cursor: pointer;
     display: flex;
     align-items: self-end;
-    margin-bottom: 10px;
+    
 }
-
 
 
 .news__card__footer{
@@ -37,9 +34,15 @@
 }
 
 
-
 @media (max-width: 1024px){
-    .news__card__container{
-        margin: 100px 5px 0px 5px;
+.news{
+    min-height: 100%;
+    margin-bottom: 130px;
+}
+
+    .news__card__link{
+    margin-top: 70px;
+    height: 100%;
     }
+    
 }
