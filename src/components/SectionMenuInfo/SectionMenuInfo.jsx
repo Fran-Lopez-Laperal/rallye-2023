@@ -33,7 +33,7 @@ const SectionMenuInfo = () => {
                 </article>
             </Link>
 
-            <Link to={'/'} style={{textDecoration:'none'}}>
+            <Link to={'/espectadores'} style={{textDecoration:'none'}}>
                 <article id='img__mapas' className='sectionMenuInfo__article' >
                     <section className='sectionMenuInfo__article__section'>
                         <footer className='sectionMenuInfo__article__footer'>
