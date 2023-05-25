@@ -38,8 +38,8 @@
 @media (max-width: 1024px){
 .news{
     min-height: 100%;
-    margin-bottom: 130px;
     margin: 0px;
+    margin-bottom: 150px;
 }
 
     .news__card__link{
