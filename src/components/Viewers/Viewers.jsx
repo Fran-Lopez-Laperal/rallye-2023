@@ -16,7 +16,7 @@ const Viewers = () => {
                 <article>
                     <h2>Lista de inscritos</h2>
                     <section className='viewers__section__header__section'>
-                            <h4>Descarga la lista de inscritos</h4>
+                            <p>Descarga la lista de inscritos</p>
                             <a href={lista}>Descargar</a>
                         </section>
                 </article>
@@ -27,7 +27,7 @@ const Viewers = () => {
                         
 
                         <section className='viewers__section__header__section'>
-                            <h4>Tramos en Google Maps</h4>
+                            <p>Tramos en Google Maps</p>
                             <a href={'https://www.google.com/maps/d/viewer?mid=1w-U79p3ABYB-TjF1lFvTBU9Of0T_2tE&usp=sharing'}>VER</a>
                         </section>
                     </header>
