@@ -8,6 +8,7 @@ import NavbarMovil from './components/NavbarMovil/NavbarMovil';
 import News from './components/News/News';
 import NewsDetail from './components/NewsDetail/NewsDetail';
 import BulletinBoard from './components/BulletinBoard/BulletinBoard';
+import Viewers from './components/Viewers/Viewers';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Route path='/noticias' element={<News />} />
         <Route path='/noticias/:id' element={<NewsDetail/>} />
         <Route path='/tablon' element={<BulletinBoard/>} />
+        <Route path='/espectadores' element={<Viewers/>} />
       </Routes>
       <Footer />
     </div>

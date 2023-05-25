@@ -51,7 +51,7 @@ const NavbarMovil = () => {
                         <Link onClick={handleShowMenu} to={'/tablon'}>COMPETIDORES</Link>
                     </li>
                     <li>
-                        <Link onClick={handleShowMenu} to={''}>ESPECTADORES</Link>
+                        <Link onClick={handleShowMenu} to={'/espectadores'}>ESPECTADORES</Link>
                     </li>
                     <li>
                         <Link onClick={handleShowMenu} to={''}>TIEMPOS ONLINE</Link>

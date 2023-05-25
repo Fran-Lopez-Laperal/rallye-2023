@@ -32,7 +32,7 @@ const NavBar = () => {
                             <p>COMPETIDORES</p>
                         </li>
                     </Link>
-                    <Link style={{ textDecoration: 'none' }}>
+                    <Link to={'/espectadores'} style={{ textDecoration: 'none' }}>
                         <li>
                             <p>ESPECTADORES</p>
                         </li>
