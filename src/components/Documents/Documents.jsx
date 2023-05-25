@@ -6,6 +6,7 @@ import FileDocuments from '../FileDocuments/FileDocuments'
 import programa from '../../assets/Documents/Programa Horario.pdf'
 import cartel from '../../assets/Documents/Cartel.pdf'
 import itinerario from '../../assets/Documents/COMPLEMENTO Nº4 ITINERARIO - HORARIO.pdf'
+import mapaGeneral from '../../assets/Documents/mapa general.pdf'
 import { Link } from 'react-router-dom'
 
 
@@ -83,7 +84,7 @@ const Documents = () => {
             <h2> Mapa General</h2>
           </header>
           <footer className='documents__section__article__footer'>
-            <a id="button__documents" > <i className="fa fa-file-pdf-o" aria-hidden="true">
+            <a href={mapaGeneral} id="button__documents" > <i className="fa fa-file-pdf-o" aria-hidden="true">
 
             </i> <p>VER</p>
             </a>
@@ -99,14 +100,14 @@ const Documents = () => {
           </footer>
         </article>
 
-        <article className='documents__section__article'>
+        {/* <article className='documents__section__article'>
           <header className='documents__section__article__header'>
             <h2> Guía de Espectador</h2>
           </header>
           <footer className='documents__section__article__footer'>
             <a id="button__documents" > <i className="fa fa-file-pdf-o" aria-hidden="true"></i><p>ABRIR</p></a>
           </footer>
-        </article>
+        </article> */}
 
       </section>
 

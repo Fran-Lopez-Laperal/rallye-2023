@@ -8,6 +8,7 @@ import  imgNoticia7 from '../assets/NewsImages/staroil.png'
 import  imgNoticia8 from '../assets/NewsImages/presentacion.png'
 import  imgNoticia9 from '../assets/NewsImages/cierre.png'
 import  imgNoticia10 from '../assets/NewsImages/dakart.png'
+import  imgNoticia11 from '../assets/NewsImages/lista.png'
 
 
 
@@ -99,6 +100,15 @@ const noticias =
       description2: "Seguro que muchos de vosotros fuisteis a Sanxexo alguna que otra vez a los karts, y eso es gracias a Racing Dakart, una de las empresas referencia en este sector 👌Además, ahora amplian su oferta, ofreciendo multitud de actividades como es el caso de minigolf, canoa, o los nuevos Aqua Karts, el primer kart acuático del mundo 🚤 🌊",
       description3: "Además, ahora amplian su oferta, ofreciendo multitud de actividades como es el caso de minigolf, canoa, o los nuevos Aqua Karts, el primer kart acuático del mundo 🚤 🌊También, junto con la marca Galicia, serán las empresas que aparezcan en los dorsales del V Rallye de Pontevedra.En su página web (https://www.racingdakart.com/) podréis encontrar toda la información respecto a su empresa, así como realizar vuestras reservas para disfrutar de estas maravillosas instalaciones 🔝",
       img: imgNoticia10,
+      date: "20-04-2023",
+    },
+    {
+      id: "11",
+      title: "Noticia",
+      description1: "126 inscritos en el 5º Rallye de Pontevedra 🔝",
+      description2: "Cumpliendo con lo establecido en el reglamento particular, hoy miércoles os presentamos la lista de inscritos de la quinta edición de nuestra prueba. Está formada por un total de 126 participantes, contando con un gran nivel tanto de pilotos como de monturas 🤟",
+      description3: "Destaca una vez más el Citroën C3 WRC de Victor Senra, los cinco vehículos de la categoría R5 o el regreso al Campeonato Gallego de dos rápidos pilotos como son Pablo Blanco y Manuel Fernandez con sendos Peugeot 208 Rally4. En lo referente a las copas de promoción también nos encontramos con la mayoría de habituales, y alguna que otra novedad, por lo que se prevé una gran lucha en todas ellas 👌",
+      img: imgNoticia11,
       date: "20-04-2023",
     },
   ]

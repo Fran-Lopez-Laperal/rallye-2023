@@ -1,6 +1,7 @@
 .news{
     
     min-height: 100vh;
+    margin: 50px;
 }
 .news__card__container{
     
@@ -38,6 +39,7 @@
 .news{
     min-height: 100%;
     margin-bottom: 130px;
+    margin: 0px;
 }
 
     .news__card__link{
