@@ -28,6 +28,18 @@ const Documents = () => {
 
       <section className='documents__section'>
 
+      <article className='documents__section__article'>
+          <header className='documents__section__article__header'>
+            <h2> Guia del espectador</h2>
+          </header>
+          <footer className='documents__section__article__footer'>
+            <Link to="/espectadores" id="button__documents">
+              <i className="fa fa-file-pdf-o" aria-hidden="true"></i>
+              <p>VER</p>
+            </Link>
+          </footer>
+        </article>
+
         <article className='documents__section__article'>
           <header className='documents__section__article__header'>
             <h2> Programa horario</h2>

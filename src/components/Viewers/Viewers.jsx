@@ -21,6 +21,14 @@ const Viewers = () => {
                         </section>
                 </article>
 
+                <article>
+                    <h2>Guía del espectador</h2>
+                    <section className='viewers__section__header__section'>
+                            <p>Guía del espectador por Pé a Chapa</p>
+                            <a href="http://www.peachaparacing.es/2023/05/guia-tramos-horarios-y-lista-de_25.html">VER</a>
+                        </section>
+                </article>
+
                 <article className='viewers__section__maps'>
                     <h2>Mapa General de Tramos</h2>
                     <header className='viewers__section__header'>
