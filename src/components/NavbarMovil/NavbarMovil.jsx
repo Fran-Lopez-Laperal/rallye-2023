@@ -54,7 +54,7 @@ const NavbarMovil = () => {
                         <Link onClick={handleShowMenu} to={'/espectadores'}>ESPECTADORES</Link>
                     </li>
                     <li>
-                        <Link onClick={handleShowMenu} to={''}>TIEMPOS ONLINE</Link>
+                        <Link onClick={handleShowMenu} to={'https://www.atodomotor.com/online/2023/pontevedra'}>TIEMPOS ONLINE</Link>
                     </li>
                 </ul>
             </nav>

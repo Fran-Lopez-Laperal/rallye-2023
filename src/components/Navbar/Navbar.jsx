@@ -37,7 +37,7 @@ const NavBar = () => {
                             <p>ESPECTADORES</p>
                         </li>
                     </Link>
-                    <Link style={{ textDecoration: 'none' }}>
+                    <Link  to={'https://www.atodomotor.com/online/2023/pontevedra'} style={{ textDecoration: 'none' }}>
                         <li>
                             <p>TIEMPOS ONLINE</p>
                         </li>

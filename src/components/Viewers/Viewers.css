@@ -79,11 +79,18 @@
     .viewers__section__header__section > h4{
         font-size: 8px;
     }
+    .viewers__section__header__section > p{
+        font-size: 20px;
+    }
 }
 
 @media(max-width:420px){
     .viewers__section__header__section > h4{
         font-size: 30px;
+    }
+
+    .viewers__section__header__section > p{
+        font-size: 20px;
     }
 }
 
@@ -98,6 +105,10 @@
 
     .viewers__section > article > h2 {
         font-size: 25px;
+    }
+
+    .viewers__section__header__section > p{
+        font-size: 20px;
     }
 }
 
