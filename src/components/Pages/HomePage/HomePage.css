@@ -60,6 +60,9 @@
  }
 
  .section-tiempos > a > button {
+  color: rgb(246, 215, 10);
+  font-size: 25px;
+  font-weight: 600;
   background-color: rgba(86, 159, 255, 0.949);
   border-radius: 5px;
   border: 1px solid rgb(255, 136, 0);
