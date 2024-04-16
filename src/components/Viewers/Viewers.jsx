@@ -8,7 +8,7 @@ import './Viewers.css'
 const Viewers = () => {
     return (
         <section className='viewers'>
-            <section className='viewers__section'>
+            {/* <section className='viewers__section'>
                 <header className='viewers__title'>
                     <h1>GUÍA DEL ESPECTADOR</h1>
                 </header>
@@ -45,12 +45,7 @@ const Viewers = () => {
                 </article>
 
                
-            </section>
-
-
-
-
-
+            </section> */}
         </section>
     )
 }

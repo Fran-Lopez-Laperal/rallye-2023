@@ -32,7 +32,7 @@ const Footer = () => {
         </section>
       </div>
       <section className='copy-rally'>
-        <strong className='copy'>Rallye de Pontevedra 2023 &copy;</strong>
+        <strong className='copy'>Rallye de Pontevedra 2024 &copy;</strong>
       </section>
     </footer>
   )

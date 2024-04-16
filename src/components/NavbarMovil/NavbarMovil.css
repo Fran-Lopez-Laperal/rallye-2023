@@ -4,7 +4,7 @@
   align-items: center;
   width: 20%;
   height: 80px;
-  /* background-color: rgb(86, 159, 255); */
+  /* background-color: rgb(1, 84, 35); */
   position: fixed;
   top: 0;
   z-index: 10;
@@ -12,7 +12,7 @@
 }
 
 .navScroll{
-  background-color: rgba(86, 159, 255, 0.789);
+  background-color: rgba(1, 84, 35, 0.789);
   width: 100%;
   transition:  1s ease-in-out;
 }
@@ -26,10 +26,10 @@
 }
 
 .navMovil__open{
-    width: 90%;
+    width: 100%;
     min-height:150vh;
     position: fixed;
-    background-color: rgb(86, 159, 255);
+    background-color: rgb(76, 132, 99);
     z-index: 10;
     transition:  .3s ease;
 }

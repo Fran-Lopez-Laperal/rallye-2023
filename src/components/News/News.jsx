@@ -12,7 +12,7 @@ const News = () => {
     return (
         <section className='news'>
             <section className='news__card__container'>
-                {noticias
+                {/* {noticias
                 .sort((a,b) => b.id - a.id)
                 .map(({ title, img, id }) => (
 
@@ -34,7 +34,7 @@ const News = () => {
 
                         </article>
                     </Link>
-                ))}
+                ))} */}
             </section>
 
         </section>

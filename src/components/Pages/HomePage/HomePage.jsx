@@ -52,9 +52,9 @@ const HomePage = () => {
         </article>
       </section>
 
-      <section className='section-itinerario'>
+      {/* <section className='section-itinerario'>
         <img src={itinerario} alt={itinerario} />
-      </section>
+      </section> */}
 
       <section>
         <CountDown />

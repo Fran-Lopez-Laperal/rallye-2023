@@ -28,7 +28,7 @@ const Documents = () => {
 
       <section className='documents__section'>
 
-      <article className='documents__section__article'>
+      {/* <article className='documents__section__article'>
           <header className='documents__section__article__header'>
             <h2> Guia del espectador</h2>
           </header>
@@ -59,7 +59,7 @@ const Documents = () => {
           <footer className='documents__section__article__footer'>
             <Link to={'/tablon'} id="button__documents" > <i className="fa fa-external-link" aria-hidden="true"></i> <p>ACCEDER</p></Link>
           </footer>
-        </article>
+        </article> */}
 
         <article className='documents__section__article'>
           <header className='documents__section__article__header'>
@@ -91,7 +91,7 @@ const Documents = () => {
           </footer>
         </article> */}
 
-        <article className='documents__section__article'>
+        {/* <article className='documents__section__article'>
           <header className='documents__section__article__header'>
             <h2> Mapa General</h2>
           </header>
@@ -101,16 +101,16 @@ const Documents = () => {
             </i> <p>VER</p>
             </a>
           </footer>
-        </article>
+        </article> */}
 
-        <article className='documents__section__article'>
+        {/* <article className='documents__section__article'>
           <header className='documents__section__article__header'>
             <h2> Itinerario</h2>
           </header>
           <footer className='documents__section__article__footer'>
             <a href={itinerario} id="button__documents" > <i className="fa fa-file-pdf-o" aria-hidden="true"></i> <p>ABRIR</p></a>
           </footer>
-        </article>
+        </article> */}
 
         {/* <article className='documents__section__article'>
           <header className='documents__section__article__header'>
