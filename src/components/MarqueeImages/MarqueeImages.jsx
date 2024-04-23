@@ -1,17 +1,17 @@
 import attis from '../../assets/marqueeImages/attis.png'
 import bamarti from '../../assets/marqueeImages/bamarti.png'
 import caetano from '../../assets/marqueeImages/caetano.png'
-import dakar from '../../assets/marqueeImages/dakar.png'
+import aquapark from '../../assets/marqueeImages/Aquapark.png'
 import exnor from '../../assets/marqueeImages/exnor.png'
 import furgo from '../../assets/marqueeImages/furgo.png'
-import goodyear from '../../assets/marqueeImages/goodYear.png'
+import castro from '../../assets/marqueeImages/castro.png'
 import king from '../../assets/marqueeImages/king.png'
 import polymade from '../../assets/marqueeImages/polymade.png'
-import progreso from '../../assets/marqueeImages/progreso.png'
+import progreso from '../../assets/marqueeImages/Progreso.png'
 import repsol from '../../assets/marqueeImages/repsol.png'
 import staroil from '../../assets/marqueeImages/staroil.png'
 import mcdonalds from '../../assets/marqueeImages/macdonalds.png'
-import stark from '../../assets/marqueeImages/stark.png'
+import newBikes from '../../assets/marqueeImages/newBikes.png'
 import './MarqueeImages.css';
 import Marquee from 'react-fast-marquee';
 
@@ -30,7 +30,7 @@ function MarqueeImages() {
                         </a>
 
                         <a target='_blank' rel="noreferrer" href='https://www.racingdakart.com/en/' className='image-wrapper'>
-                            <img src={dakar} alt={dakar} />
+                            <img src={aquapark} alt={aquapark} />
                         </a>
 
                         <a target='_blank' rel="noreferrer" href='https://estaciondeservicioexnor.negocio.site/' className='image-wrapper'>
@@ -54,7 +54,7 @@ function MarqueeImages() {
                         </a>
 
                         <a target='_blank' rel="noreferrer" href='https://www.goodyear.eu/es_es/consumer.html' className='image-wrapper me-4'>
-                            <img src={goodyear} alt={goodyear} />
+                            <img id='castro' src={castro} alt={castro} />
                         </a>
                         <a target='_blank' id='polymade' rel="noreferrer" href='https://astillerospolymade.com/' className='image-wrapper me-4'>
                             <img src={polymade} alt={polymade} />
@@ -71,7 +71,7 @@ function MarqueeImages() {
                             <img src={staroil} alt={staroil} />
                         </a>
                         <a target='_blank' rel="noreferrer" href='https://starkausavil.es/' className='image-wrapper me-4'>
-                            <img src={stark} alt={stark} />
+                            <img src={newBikes} alt={newBikes} />
                         </a>
 
                     </ul>

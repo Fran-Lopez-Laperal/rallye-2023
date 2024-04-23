@@ -17,7 +17,9 @@
  
 
  .marquee__homePage{
-   background-color: rgba(132, 132, 132, 0.698);
+   background-color: rgba(187, 187, 187, 0.688);
+   margin-top: -3px;
+   width: auto;
  }
 
  .links__media{
