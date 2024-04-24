@@ -4,7 +4,7 @@ import './Documents.css'
 import FileDocuments from '../FileDocuments/FileDocuments'
 
 import programa from '../../assets/Documents/Programa Horario.pdf'
-import cartel from '../../assets/Documents/Cartel.pdf'
+import cartel from '../../assets/Cartel Rally 2024 (1).pdf'
 import itinerario from '../../assets/Documents/COMPLEMENTO Nº4 ITINERARIO - HORARIO.pdf'
 import mapaGeneral from '../../assets/Documents/mapa general.pdf'
 import { Link } from 'react-router-dom'
