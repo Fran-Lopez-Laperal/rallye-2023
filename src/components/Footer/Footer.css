@@ -15,6 +15,7 @@
 
 .copy-logo{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     padding: 25px;
     align-items: center;
@@ -23,7 +24,7 @@
 .media{
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-between;
     color: white;
 }
 
@@ -55,6 +56,8 @@
     justify-content: space-evenly;
     align-items: center;
 }
+
+
 
 
 
@@ -90,3 +93,91 @@
         font-size: 30px;
     }
 }
+
+
+.hard-skills{
+}
+
+
+
+.tech-container{
+  background-color: rgba(230, 230, 230, 0.911);
+  /* border-radius: 20px;
+  box-shadow: 1px 1px 14px black;  */
+    display: flex;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(11rem, 2fr));
+    grid-auto-rows: 12rem;  
+    gap: 3rem;
+    /*
+    padding: 1.3rem;
+    min-width: 100%; */
+}
+
+.tech-container figure > img {
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
+    max-width: 100%;
+    
+}
+
+@media(max-width:1024px){
+
+
+  .tech-container{
+
+    grid-template-columns: repeat(auto-fit, minmax(6rem, 2fr));
+    grid-auto-rows: 8rem;  
+    /* gap:4rem; */
+    padding: 2rem;
+    height: 550px;
+    margin: auto;
+    margin-top: 100px;
+    width: auto;
+    max-width: 400px;
+  }
+}
+
+@media(min-width:1024px){
+  .div-container{
+    width: 100%;
+    margin: auto;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .react-logo img{
+      animation: App-logo-spin infinite 20s linear;
+    }
+
+  }
+
+  @media(max-width:490px){
+
+  .tech-container{
+
+    grid-template-columns: repeat(auto-fit, minmax(4rem, 2fr));
+    grid-auto-rows: 4rem;  
+    /* gap:3rem; */
+    padding: 2rem;
+    height: auto;
+    margin: 10px;
+
+    width: auto;
+  }
+  }
+
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
