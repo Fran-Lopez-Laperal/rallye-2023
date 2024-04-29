@@ -1,6 +1,8 @@
 .footer{
     background-color: rgb(1, 84, 35);
+    min-height: 130vh;
 }
+
 
 .footer-container{
   padding: 2rem;
@@ -14,7 +16,7 @@
 }
 
 .copy{
-    font-size: 25px;
+    font-size: 40px;
     color: white;
 }
 
@@ -29,7 +31,7 @@
 .media{
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     color: white;
 }
 
@@ -49,11 +51,13 @@
 
 .copy-rally{
     text-align: center;
+    margin-top: 40px;
 }
 
 .footer-adress{
    list-style: none;
    color: white; 
+   font-size: 20px;
 }
 
 .footer-imgs{
@@ -67,6 +71,10 @@
 
 
 @media(max-width:1024px){
+
+  .footer{
+    min-height: 110vh;
+  }
    
      .copy-logo{
         flex-direction: column;
@@ -116,14 +124,13 @@
     grid-template-columns: repeat(auto-fit, minmax(11rem, 2fr));
     grid-auto-rows: 12rem;  
     gap: 3rem;
-    padding: 1.3rem;
-    min-width: 1005;
+    padding:4rem;
+    display: inline-grid;
+    align-items: center;
 }
 
 .tech-container figure > img {
-    width: 330px;
-    height: 330px;
-    object-fit: contain;
+  
     max-width: 100%;
     
 }
