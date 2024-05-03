@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import './Documents.css'
 import FileDocuments from '../FileDocuments/FileDocuments'
 
-import programa from '../../assets/Documents/Programa Horario.pdf'
+import folleto from '../../assets/Documents/Folleto VI Rallye de Pontevedra.pdf'
 import cartel from '../../assets/Documents/Cartel.pdf'
 import itinerario from '../../assets/Documents/COMPLEMENTO Nº4 ITINERARIO - HORARIO.pdf'
 import mapaGeneral from '../../assets/Documents/mapa general.pdf'
@@ -60,6 +60,15 @@ const Documents = () => {
             <Link to={'/tablon'} id="button__documents" > <i className="fa fa-external-link" aria-hidden="true"></i> <p>ACCEDER</p></Link>
           </footer>
         </article> */}
+
+        <article className='documents__section__article'>
+          <header className='documents__section__article__header'>
+            <h2> Folleto de la prueba</h2>
+          </header>
+          <footer className='documents__section__article__footer'>
+            <a href={folleto} id="button__documents" > <i className="fa fa-file-pdf-o" aria-hidden="true"></i> <p>VER</p></a>
+          </footer>
+        </article>
 
         <article className='documents__section__article'>
           <header className='documents__section__article__header'>
