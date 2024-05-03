@@ -1,21 +1,19 @@
 
 .image-wrapper img {
-    height: 180px;
-    width: 180px;
+    height: 250px;
+    width: 250px;
     object-fit: contain;
 }
   
 .image-wrapper img{
-    margin: 0px 10px;
+    margin: 0px 30px;
 }
 
 .marquee-warning h3{
     border: 2px solid red;
 }
 
-#castro{
-  width: 10%;
-}
+
 
 
   @media(max-width:420px){

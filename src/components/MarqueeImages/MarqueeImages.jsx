@@ -29,7 +29,7 @@ function MarqueeImages() {
                             <img src={caetano} alt={caetano} />
                         </a>
 
-                        <a target='_blank' rel="noreferrer" href='https://www.racingdakart.com/en/' className='image-wrapper'>
+                        <a target='_blank' rel="noreferrer" href='https://aquaparksanxenxo.com/' className='image-wrapper'>
                             <img src={aquapark} alt={aquapark} />
                         </a>
 
@@ -53,7 +53,7 @@ function MarqueeImages() {
                             <img src={furgo} alt={furgo} />
                         </a>
 
-                        <a target='_blank' rel="noreferrer" href='https://www.goodyear.eu/es_es/consumer.html' className='image-wrapper me-4'>
+                        <a target='_blank' rel="noreferrer" href='https://talleresocastro.es/' className='image-wrapper me-4'>
                             <img id='castro' src={castro} alt={castro} />
                         </a>
                         <a target='_blank' id='polymade' rel="noreferrer" href='https://astillerospolymade.com/' className='image-wrapper me-4'>
@@ -70,7 +70,7 @@ function MarqueeImages() {
                         <a target='_blank' rel="noreferrer" href='https://www.staroil.es/' className='image-wrapper me-4'>
                             <img src={staroil} alt={staroil} />
                         </a>
-                        <a target='_blank' rel="noreferrer" href='https://starkausavil.es/' className='image-wrapper me-4'>
+                        <a target='_blank' rel="noreferrer" href='https://newbikes.es/' className='image-wrapper me-4'>
                             <img src={newBikes} alt={newBikes} />
                         </a>
 

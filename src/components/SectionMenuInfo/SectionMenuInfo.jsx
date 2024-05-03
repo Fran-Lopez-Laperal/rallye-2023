@@ -7,13 +7,13 @@ const SectionMenuInfo = () => {
     return (
 
         <section className='sectionMenuInfo'>
-            <Link to={'/noticias'} style={{textDecoration:'none'}}>
+            <Link to={'https://webapp.sportity.com/channel/PONTEVEDRA24/'} style={{textDecoration:'none'}}>
                 <article id='img__noticias' className='sectionMenuInfo__article' >
                     <section className='sectionMenuInfo__article__section'>
                         <footer className='sectionMenuInfo__article__footer'>
 
                             <p className='secondary__title__card'>Todas las noticias de la prueba</p>
-                            <p className='title__card'>NOTICIAS</p>
+                            <p className='title__card'>TABLON DE ANUNCIOS</p>
 
 
                         </footer>
